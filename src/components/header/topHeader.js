@@ -42,25 +42,25 @@ export default function(){
                 <img src={logo1} alt="logo" />
                 <SideElements>
                     <LI style={{ borderRight : "1px solid #fff"}}>
-                        <FaSearch style={socialMedia}/>
+                        <a href="#"><FaSearch style={socialMedia} /></a>
                     </LI>
                     <LI >
-                        <FaFacebook style={socialMedia}/>
+                        <a href="#"><FaFacebook style={socialMedia}/></a>
                     </LI>
                     <LI>
-                        <FaTwitter  style={socialMedia}/>
+                        <a href="#"><FaTwitter  style={socialMedia}/></a>
                     </LI>
                     <LI>
-                        <FaGooglePlus style={socialMedia}/>
+                        <a href="#"><FaGooglePlus style={socialMedia}/></a>
                     </LI>
                     <LI>
-                        <FaYoutube style={socialMedia}/>    
+                        <a href="#"><FaYoutube style={socialMedia}/>  </a>  
                     </LI>
                     <LI>
-                        <FaLinkedin style={socialMedia}/>
+                        <a href="#"><FaLinkedin style={socialMedia}/></a>
                     </LI>
                     <LI>
-                        <FaWifi style={socialMedia}/>
+                        <a href="#"><FaWifi style={socialMedia}/></a>
                     </LI>
                 </SideElements>
             </Container>

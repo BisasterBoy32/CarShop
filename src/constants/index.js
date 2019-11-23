@@ -1,6 +1,13 @@
 import icon1 from "../assets/images/header/icon1.png";
 import icon2 from "../assets/images/header/icon2.png";
 import icon3 from "../assets/images/header/icon3.png";
+import car1 from "../assets/images/cars/car1.png";
+import car2 from "../assets/images/cars/car2.png";
+import car3 from "../assets/images/cars/car3.png";
+import car4 from "../assets/images/cars/car4.png";
+import car5 from "../assets/images/cars/car5.png";
+import car6 from "../assets/images/cars/car6.png";
+import car7 from "../assets/images/cars/car7.png";
 
 export const headerInfo = [
     {
@@ -25,3 +32,20 @@ export const headerInfo = [
         id : 2
     }
 ]
+
+export const carInfo = {
+    name: "Mercedes Benz Limousin Edition (Black 2016)",
+    greenStars : 3,
+    reviews : 5,
+    footerImg: [car1,car2,car3,car4,car5,car6,car7],
+    trasition : "Auto",
+    airBags : "08",
+    tech : "hybrid",
+    economy: "06 lits/100 kms",
+    fuelType: "Mixed",
+    power : "250 HP",
+    seats: "16",
+    capty: "100 lits",
+    producYear: "2016",
+
+}

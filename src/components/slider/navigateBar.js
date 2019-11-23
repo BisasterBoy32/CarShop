@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import menu from "../../assets/images/header/menu.jpg";
-import { FaArrowDown } from "react-icons/fa";
+import { FaCaretDown } from "react-icons/fa";
 
 const Wrapper = styled.div`
     position : absolute;
@@ -51,13 +51,13 @@ export default function(){
             <Bar />
             <MenuWrapper>
                 <Menu>
-                    <MenuElement>HOME <FaArrowDown /></MenuElement>
-                    <MenuElement>ABOUT</MenuElement>
-                    <MenuElement>SERVICE</MenuElement>
-                    <MenuElement>CONTACT</MenuElement>
-                    <MenuElement>BLOGS</MenuElement>
-                    <MenuElement>SHORTCODE</MenuElement>
-                    <MenuElement>PAGES</MenuElement>
+                    <MenuElement>HOME <FaCaretDown /></MenuElement>
+                    <MenuElement>ABOUT <FaCaretDown /></MenuElement>
+                    <MenuElement>SERVICE <FaCaretDown /></MenuElement>
+                    <MenuElement>CONTACT <FaCaretDown /></MenuElement>
+                    <MenuElement>BLOGS <FaCaretDown /></MenuElement>
+                    <MenuElement>SHORTCODE <FaCaretDown /></MenuElement>
+                    <MenuElement>PAGES <FaCaretDown /></MenuElement>
                 </Menu>
             </MenuWrapper>
         </Wrapper>
