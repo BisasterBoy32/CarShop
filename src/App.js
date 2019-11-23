@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Slider from "./components/slider";
 import CarContent from "./components/main/carcontent";
 import Desc from "./components/description";
+import Related from "./components/related";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Slider />
       <CarContent />
       <Desc />
+      <Related />
     </>
   );
 }

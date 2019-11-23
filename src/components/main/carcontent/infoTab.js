@@ -15,7 +15,7 @@ import tab9 from "../../../assets/images/tab/tab9.png";
 
 
 const CarInfo = styled.div`
-max-width :370px; 
+max-width : 400px; 
 margin-left : 20px;
 color : #fff;
 `

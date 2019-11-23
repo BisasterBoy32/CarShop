@@ -24,6 +24,7 @@ cursor : pointer;
 const Content = styled.div`
     padding : 2.5rem 2rem;
     color : #87888f;
+    background-color : #fff;
 `
 const List = styled.div`
 display : flex;
