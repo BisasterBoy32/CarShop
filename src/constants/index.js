@@ -49,3 +49,30 @@ export const carInfo = {
     producYear: "2016",
 
 }
+
+export const relatedCars = [
+    {
+        name : "Mercedis S500V81",
+        image : car3,
+        stars : 3,
+        reveiws : 10,
+        prix : 96.60,
+        sold : "30%",
+    },
+    {
+        name : "Honda Civic 2016",
+        image : car5,
+        stars : 4,
+        reveiws : 20,
+        prix : 129.68,
+        sold : 0,
+    },
+    {
+        name : "Lexus h400",
+        image : car2,
+        stars : 2,
+        reveiws : 4,
+        prix : 56.60,
+        sold : 0,
+    },
+]

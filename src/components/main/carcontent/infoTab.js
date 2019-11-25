@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Element from "./infoTabElement";
-import { FaCaretDown } from "react-icons/fa";
+import Price from "./price";
 import tab1 from "../../../assets/images/tab/tab1.png";
 import tab2 from "../../../assets/images/tab/tab2.png";
 import tab3 from "../../../assets/images/tab/tab3.png";
@@ -58,32 +58,6 @@ align-items: center;
 position : relative;
 `
 
-const BeforePrice = styled.div`
-position: absolute;
-bottom: 4px;
-left: -38px;
-color: #fff;
-font-weight: 400;
-font-size: 1rem;
-font-style: italic;
-`
-
-const Price = styled.div`
-font-size : 1.5rem;
-color : #f77d0a;
-position : relative;
-font-weight : 700;
-font-family: 'Lato', sans-serif;
-`
-const UnderPrice = styled.div`
-position: absolute;
-bottom: -6px;
-right: -28px;
-font-size: 1rem;
-font-weight: 700;
-color: #f77d0a;
-`
-
 const FooterButton = styled.button`
 padding: 1.7rem 1rem;
     background-color: #f77d0a;
@@ -96,13 +70,6 @@ padding: 1.7rem 1rem;
     cursor: pointer;
     width: 35%;
 `
-const IconStyling = {
-    color: "rgb(67, 69, 88)",
-    position: "absolute",
-    right: "-80px",
-    fontSize: "1.1rem",
-    top: "7px"
-}
 
 export default function ({ carInfo }) {
 
@@ -125,12 +92,7 @@ export default function ({ carInfo }) {
             </Content>
             <Footer>
                 <FooterDiv>
-                    <Price>
-                        <BeforePrice>from</BeforePrice>
-                        $195
-                        <UnderPrice> /day </UnderPrice>
-                        <FaCaretDown style={IconStyling} />
-                    </Price>
+                    <Price price={195} scroll />
                 </FooterDiv>
                 <FooterButton> HIRE CAR</FooterButton>
             </Footer>
@@ -138,6 +100,3 @@ export default function ({ carInfo }) {
         </CarInfo>
     )
 }
-/*
-
-*/

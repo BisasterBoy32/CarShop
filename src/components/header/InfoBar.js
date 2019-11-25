@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Container from "../wrapper";
 import { headerInfo } from "../../constants";
-import logo2 from "../../assets/images/header/logo2.jpg";
+import logo2 from "../../assets/images/header/logo2.png";
 import InfoComponent from "./info";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";

@@ -52,7 +52,7 @@ height : 110px;
 cursor : pointer;
 background-color : #cccccc;
 margin : 5px;
-border : 1px solid ${props => props.selected }
+border : 1px solid ${props => props.selected };
 &:hover {
     border : 1px solid #ea6228;
 }
